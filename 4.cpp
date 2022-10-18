@@ -7,7 +7,7 @@ using namespace std;
 
 int liczba_blednych_bitow(unsigned char zrodlo, unsigned char porownywany)
 {
-	bitset <8> x = zrodlo ^ porownywany; //porownanie danych
+	bitset <8> x = zrodlo ^ porownywany;
     return x.count(); 
 }
 
